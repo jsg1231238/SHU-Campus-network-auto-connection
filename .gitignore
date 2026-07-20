@@ -1,0 +1,27 @@
+# 运行时 / 敏感文件，不纳入版本管理
+
+# DPAPI 加密的校园网密码（本机专属，不外传）
+.campuspwd
+
+# 运行日志（含会话 token、密文）
+campus-net-log.txt
+
+# 一次性诊断输出
+diag-out.txt
+
+# project-logger 回溯备份目录
+_backup/
+
+# Claude Code 内部工具目录（临时 worktree 等），不属于项目内容
+.claude/
+
+# 本地私有配置（真实 WiFi 名 / 学号），公开仓库不含个人信息
+local.settings.ps1
+
+# 浏览器抓包的个人网页快照：含真实 MAC/IP 及浏览器插件注入内容，公开仓库不收录
+# （提取出的通用逻辑 JS 文件 AuthInterFace.js/login_bch.js/security.js 已核对不含个人信息，保留）
+上网认证.html
+上网认证_files/bg.png
+上网认证_files/wifilogosmall.png
+上网认证_files/close_red.png
+上网认证_files/danger_yellow.png
