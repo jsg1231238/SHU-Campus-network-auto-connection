@@ -6,9 +6,6 @@
 # 运行日志（含会话 token、密文）
 campus-net-log.txt
 
-# 一次性诊断输出
-diag-out.txt
-
 # project-logger 回溯备份目录
 _backup/
 
@@ -18,10 +15,8 @@ _backup/
 # 本地私有配置（真实 WiFi 名 / 学号），公开仓库不含个人信息
 local.settings.ps1
 
-# 浏览器抓包的个人网页快照：含真实 MAC/IP 及浏览器插件注入内容，公开仓库不收录
-# （提取出的通用逻辑 JS 文件 AuthInterFace.js/login_bch.js/security.js 已核对不含个人信息，保留）
+# 浏览器抓包留下的个人网页快照与逆向分析参考资料，本地留存、不进仓库
 上网认证.html
-上网认证_files/bg.png
-上网认证_files/wifilogosmall.png
-上网认证_files/close_red.png
-上网认证_files/danger_yellow.png
+上网认证_files/
+diag-portal.ps1
+diag-out.txt
